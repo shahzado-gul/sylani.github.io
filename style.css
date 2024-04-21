@@ -1,0 +1,505 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --blueColor:#0d6db7;
+    --greenColor:#8dc63f;
+}
+
+a{
+    text-decoration: none;
+}
+.centerText h1{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+/* .centerText h1:hover{
+    border-bottom: 2px solid var(--greenColor);
+} */
+.mainContainer{
+    /* border: 1px solid black; */
+    margin: 0px 100px;
+}
+nav{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    height: 75px;
+    line-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav .logo img{
+    width: 250px;
+}
+nav .logo :hover{
+    transform: scale(1.1);
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight:bold;
+    margin: 10px;
+}
+nav li a:hover{
+    border-bottom: 3px solid var(--blueColor);
+}
+nav button{
+    margin: 10px 5px;
+    padding: 10px 10px;
+    background-color: var(--blueColor);
+    border-radius: 5px;
+    border: none;
+}
+nav button:hover{
+    transform: scale(1.1);
+    background-color: var(--greenColor);
+}
+nav a button{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+} 
+
+
+
+.partOne{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 10px;
+    height: 85vh;
+}
+.partOneText{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-right: 10px;
+}
+.partOneText h1{
+    padding-top: 80px;
+    font-size: 40px;
+}
+.partOneText p{
+    padding: 30px 0px;
+    font-size: 20px;
+    text-align: justify;
+}
+.partOneText button{
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+}
+.partOneText a button {
+    font-size: 20px;
+    color: black;
+}
+.partOneText button:hover{
+    background-color: var(--greenColor);
+    transform: scale(0.9);
+    border: none;
+}
+.partOneText a button:hover{
+    color: white;
+}
+.partOneText span{
+    color: var(--blueColor);
+}
+.partOneText span:hover{
+    color: var(--greenColor);
+}
+.partOneImage{
+    margin-left: 10px;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.partOneImage img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.partTwo{
+    /* border: 1px solid black; */
+    padding: 20px 20px;
+    margin: 20px 0px;
+    background-color: var(--blueColor);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.partTwoText h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.partTwoText a{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--greenColor);
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 5px 0px;
+}
+.partTwoButtons{
+    /* border: 1px solid black; */
+    padding-top: 25px;
+    /* padding-top: 30px; */
+}
+.partTwoButtons button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 10px;
+    background-color: var(--greenColor);
+}
+.partTwoButtons button:hover{
+    transform: scale(1.1);
+}
+.partTwoButtons a{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.partThree{
+    margin: 20px 0px;
+    /* border: 1px solid black; */
+    height: 75vh;
+
+}
+.partThree img{
+width: 100%;
+height: 100%;
+border-radius: 10px;
+}
+
+.partFour{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.partFourContainer{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: var(--blueColor);
+    /* border: 1px solid black; */
+    margin: 20px 0px;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    
+}
+.partFourContainer:hover{
+    transform: scale(0.9);
+    background-color: var(--greenColor);
+}
+.partFourContainer img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
+.partFourContainer p{
+    /* border: 1px solid black; */
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+
+.partFive{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.partFiveContainer{
+    border: 1px solid black;
+    width: 350px;
+    height: 300px;
+    background-image: url(/Images/Pic1.png);
+    background-size: cover;
+    background-position:center;
+    border-radius: 10px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.partFiveContainer:hover{
+    transform: scale(0.9);
+}
+.partFiveContainer:hover > button{
+    background-color: var(--greenColor);
+}
+.partFiveContainer p{
+    padding-left: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.partFiveContainer button{
+    padding: 10px 140px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--blueColor);
+}
+.partFiveContainer button a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.partSix{
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 10px 0px;
+    padding: 10px 0px;
+    width: 100%;
+    height: 100vh;
+}
+.partSixContainerOne{
+    width: 50%;
+    margin-right: 10px;
+    /* border: 1px solid black; */
+    /* margin: 10px; */
+}
+.partSixContainerOne:hover{
+    transform: scale(0.9);
+}
+.partSixContainerOne img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    }
+.partSixContainerTwo{
+    width: 50%;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+}
+.otherProjects{
+    margin-left: 20px;
+}
+.partSixSubContainerTwo{
+    display: flex;
+}
+.partSixSubContainerTwo:hover>img{
+    border-color:var(--greenColor) ;
+}
+/* .partSixSubContainerTwo .content:hover>h1{
+    color:var(--greenColor) ;
+} */
+.partSixSubContainerTwo img{
+    border: 5px solid var(--blueColor);
+    padding: 10px;
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    /* background-color: silver; */
+}
+.partSixSubContainerTwo .content{
+    /* border: 1px solid black; */
+    margin: 20px 20px 20px 10px;
+
+}
+.partSixSubContainerTwo .content h1{
+    font-size: 20px;
+    color: var(--blueColor);
+}
+.partSixSubContainerTwo .content p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+.partSeven{
+    /* border: 1px solid black; */
+    padding: 50px;
+    margin: 20px 0px;
+    background-color: var(--blueColor);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.partSevenContainer{
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: white;
+}
+.partSevenContainer:hover>img{
+    transform: scale(1.1);
+    background-color: #8dc63f;
+}
+.partSevenContainer img{
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px 0px;
+}
+.partSevenContainer p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+
+.saylaniGuide{
+    margin: 20px 0px;
+    padding: 50px 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    background-color: var(--blueColor);
+}
+.saylaniGuide h1{
+    color: white;
+}
+.saylaniGuide h1:hover{
+    color: var(--greenColor);
+    transform: scale(1.1);
+}
+.saylaniGuide .inputEmail{
+    margin: 10px 0px;
+    padding: 10px 10px;
+    background-color: var(--blueColor);
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.saylaniGuide button{
+    /* margin: 0px 400px; */
+    padding: 10px 0px; 
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.saylaniGuide button:hover{
+    background-color: var(--greenColor);
+    /* transform: scale(1.1); */
+}
+.saylaniGuide button:hover>a{
+    color: white;
+}
+.saylaniGuide button a{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+footer{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    padding: 50px 100px;
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+}
+.footerPartOne{
+    display: flex;
+}
+.logoSocialMedia{
+    /* border: 1px solid black; */
+    width: 25%;
+}
+.logoSocialMedia .logo{
+    width: 250px;
+    height: 80px;
+    /* border: 1px solid wheat; */
+}
+.logoSocialMedia .logo:hover{
+    transform: scale(1.1);
+}
+.logoSocialMedia .logo img{
+    width: 100%;
+    height: 100%;
+}
+.logoSocialMedia .socialMedia img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.logoSocialMedia .socialMedia img:hover{
+    transform: scale(1.1);
+}
+.logoSocialMedia .socialMedia{
+    padding: 20px 0px 0px 10px;
+}
+.footerParts{
+    /* border: 1px solid black; */
+    width: 25%;
+}
+.footerParts li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.footerParts a{
+    color: black;
+    font-size: 18px;
+    color: var(--greenColor);
+
+}
+.footerParts .title a{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--blueColor);
+} 
+.footerParts p{
+    text-align: justify;
+    font-size: 18px;
+    color: var(--greenColor);
+}
+.footerPartTwo{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    text-align: center;
+}
+.footerPartTwo img{
+    width: 150px;
+    height: 100px;
+}
+.footerPartTwo img:hover{
+    transform: scale(1.1);
+}
+.footerPartTwo p{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--greenColor);
+}
+hr{
+    margin: 20px 0px;
+}
